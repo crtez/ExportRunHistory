@@ -9,7 +9,7 @@ function ExportRunHistory.true_export() --to prevent crash when 64bit version is
 end
 
 function ExportRunHistory.Export()
-	local file = io.open("C:/Users/admin/projects/hades_run_exporter/output/output.json", "w")
+	local file = io.open("../Content/Mods/ExportRunHistory/output.json", "w")
 	local total_runs = TableLength( GameState.RunHistory ) + 1
 	local runs_json = '{"runs": ['
 	local index = 1
@@ -167,20 +167,6 @@ function ExportRunHistory.Export()
 	file:write(runs_json)
 	file:close()
 end
-
--- --navy seal copypasta
--- function ExportRunHistory.Export()
--- 	local screen = DeepCopyTable( ScreenData.RunHistory )
--- 	local keys = ModUtil.TableKeysString( screen )
--- 	ModUtil.Hades.PrintOverhead("What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals...")
--- 	return keys
--- end
-	
--- OnAnyLoad {
--- 	--DumpRunHistoryStats
--- 	ExportRunHistory.Export
-	
--- }
 
 ModUtil.LoadOnce( 
 	ExportRunHistory.true_export
