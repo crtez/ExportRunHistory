@@ -9,9 +9,8 @@ Once you load into game, your run history will appear in a "output.json" file in
 
 
 ## Important Notes
-Note: Boons will appear as "ZeusBonusBounceTrait" or "SpeedDamageTrait" and so on. 
+Boons will appear as "ZeusBonusBounceTrait" or "SpeedDamageTrait" and so on. 
 These may be confusing, so use the localizations file at "C:\Program Files\Epic Games\Hades\Content\Game\Text\en\CodexText.en.sjson" (could be different if you're playing Hades in a language other than English) or the equivalent for Steam in order to translate them to their "real" names.
-
 For example, in the "CodexText.en.sjson" file, "ZeusBonusBounceTrait" corresponds to "Storm Lightning" and "SpeedDamageTrait" corresponds to "Rush Delivery".
 
 If you're curious about the conditions needed to achieve clear messages such as "ClearTimeVeryFast" ("Hermes would be Jealous"), you can find all of those in the "RunClearMessageData.lua" file located in "C:\Program Files\Epic Games\Hades\Content\Scripts\" or the Steam equivalent.
