@@ -5,7 +5,7 @@ Export your entire Hades run history to JSON.
 
 In order to export your run history, you must run the 32-bit verison of "Hades.exe" from either "C:\Program Files\Epic Games\Hades\x86" (Epic) or C:\Steam\steamapps\common\Hades\x86" (Steam).
 
-Once you load into game, your run history will appear in a "output.json" file in the same directory as the "ExportRunHistory.lua" script.
+Once you load into your save, your run history will appear in a "output.json" file in the same directory as the "ExportRunHistory.lua" script.
 
 
 ## Important Notes
