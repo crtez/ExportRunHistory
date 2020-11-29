@@ -20,7 +20,7 @@ You can use [this wonderful formatter](https://jsonformatter.org/) to get a pret
 
 Try using the [pandas](https://pandas.pydata.org/) data analysis library in Python and Jupyter Notebook to garner interesting insights about your data, like average run time, outliers, and more!
 
-The [test_analysis.ipynb](https://github.com/crtez/ExportRunHistory/blob/trunk/test_analysis.ipynb) file in this repository is a good example of what you can do with your data.
+The [test_analysis.ipynb](https://github.com/crtez/ExportRunHistory/blob/trunk/test/test_analysis.ipynb) file in this repository is a good example of what you can do with your data.
 
 
 ## Important Notes
